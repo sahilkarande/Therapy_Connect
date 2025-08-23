@@ -8,7 +8,7 @@ Visit Files: [https://drive.google.com/drive/folders/1S8QnxsFunuPhtRWAwy4UvDOt4j
 
 # 🎨 Frontend Design
 
-![Therapy Connect UI](.\Application_Pictures\Thumbnail.png)
+![Therapy Connect UI](./Application_Pictures/Thumbnail.png)
 
 
 
@@ -17,7 +17,7 @@ Visit Files: [https://drive.google.com/drive/folders/1S8QnxsFunuPhtRWAwy4UvDOt4j
 
 The core logic resides within the FastAPI server. Here is a detailed breakdown of how data flows through the AI services during a user session.
 
-![Therapy Connect Data Flow](./therapy-connect-flow.png)
+![Therapy Connect Data Flow](./Application_Pictures/therapy-connect-flow.png)
 
 
 # ✨ Key Features
