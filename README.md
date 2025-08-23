@@ -10,6 +10,7 @@ Visit Files: [https://drive.google.com/drive/folders/1S8QnxsFunuPhtRWAwy4UvDOt4j
 
 ![Therapy Connect UI](./Application_Pictures/Thumbnail.png)
 
+For more project images, please open the [**Application_Pictures**](./Application_Pictures) folder.
 
 
 
@@ -36,44 +37,77 @@ The core logic resides within the FastAPI server. Here is a detailed breakdown o
 # 📂 Project Structure
 
 <pre>
-my_ai_pipe/
-├── components/
-│   └── UI/
-│       └── chart.js
+📁 MY_AI_PIPELINE
 │
-├── data/
-│   └── knowledge_base_db/
+├── 📁 components
+│   ├── 📁 ui
+│   │   └── 📄 chart.js
+│   │
+│   ├── 📁 data
+│   │   ├── 📁 knowledge_base_db
+│   │   │   ├── 📁 04d86436-3734-4fc9-9d44-b594c2f64816
+│   │   │   │   ├── 📄 data_level0.bin
+│   │   │   │   ├── 📄 header.bin
+│   │   │   │   ├── 📄 length.bin
+│   │   │   │   └── 📄 link_lists.bin
+│   │   │   │
+│   │   │   ├── 📁 04d86436-3734-4fc9-9d44-b594c2f64816-20250728T061644Z-1-0
+│   │   │   │   ├── 📄 data_level0.bin
+│   │   │   │   ├── 📄 header.bin
+│   │   │   │   ├── 📄 index_metadata.pickle
+│   │   │   │   ├── 📄 length.bin
+│   │   │   │   └── 📄 link_lists.bin
+│   │   │   │
+│   │   │   └── 📄 chroma.sqlite3
+│   │   │
+│   │   └── 📁 dev files
+│   │       ├── 📁 assets
+│   │       │   ├── 📁 css
+│   │       │   │   └── 📄 style.css
+│   │       │   └── 📁 javascript
+│   │       │       ├── 📄 analytics.js
+│   │       │       ├── 📄 app.js
+│   │       │       ├── 📄 history.js
+│   │       │       └── 📄 settings.js
+│   │       │
+│   │       ├── 📄 analytics.html
+│   │       ├── 📄 history.html
+│   │       ├── 📄 index.html
+│   │       └── 📄 settings.html
+│   │
+│   ├── 📁 models
+│   │   ├── 📄 BILSTM_model.h5
+│   │   └── 📄 final_tokenizer.pkl
+│   │
+│   ├── 📁 pipeline_io
+│   │   ├── 📁 audio_uploads
+│   │   ├── 📁 stage1_transcriptions
+│   │   │   ├── 📁 archive
+│   │   │   ├── 📄 test.txt
+│   │   │   └── 📄 transcription_20250725_071702_1753427822408.txt
+│   │   │
+│   │   └── 📄 index.html
+│   │
+│   └── 📁 services
+│       ├── 📁 __pycache__
+│       │   ├── 📄 emotion_service.cpython-310.pyc
+│       │   ├── 📄 emotion_service.cpython-311.pyc
+│       │   ├── 📄 main_api.cpython-311.pyc
+│       │   ├── 📄 main_app.cpython-310.pyc
+│       │   ├── 📄 main_app.cpython-311.pyc
+│       │   ├── 📄 rag_service.cpython-310.pyc
+│       │   ├── 📄 rag_service.cpython-311.pyc
+│       │   ├── 📄 transcription_api.cpython-311.pyc
+│       │   └── 📄 whisper.cpython-311.pyc
+│       │
+│       ├── 📄 emotion_service.py
+│       ├── 📄 main_app.py
+│       ├── 📄 rag_service.py
+│       └── 📄 transcription_api.py
 │
-├── dev files/
-│   ├── asset/
-│   │   ├── CSS/
-│   │   │   └── style.css
-│   │   └── JavaScript/
-│   │       ├── analytics.js
-│   │       ├── app.js
-│   │       ├── history.js
-│   │       └── settings.js
-│   ├── template/
-│   │   └── (empty)
-│   ├── analytics.html
-│   ├── history.html
-│   ├── index.html
-│   └── setting.html
-│
-├── models/
-│   ├── BiLSTM_model.h5
-│   └── final_tokenizer.pkl
-│
-├── pipeline_io/
-│   └── audio_uploads/
-│
-├── services/
-│   ├── main_app.py
-│   ├── emotion_service.py
-│   └── rag_service.py
-│
-├── .env
-└── requirements.txt
+├── 📄 .env
+├── 📄 package.json
+└── 📄 requirements.txt
 </pre>
 
 
@@ -93,7 +127,7 @@ Follow these steps to set up and run the project locally.
 
 - Clone the repository:
 
-  - git clone [your-repository-url]
+  - git clone https://github.com/sahilkarande/Therapy_Connect
   - cd My_AI_Pipeline
 
 
