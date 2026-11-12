@@ -7,7 +7,7 @@ The application combines speech recognition, emotion detection, Retrieval-Augmen
 ## Project Preview
 
 <p align="center">
-  <img src="./Application_Pictures/Therapy_Connect_Thumbnail.png" alt="Therapy Connect Project Thumbnail" width="850"/>
+  <img src="./Application_Pictures/Therapy_Connect_Wellness_Dashboard.png" alt="Therapy Connect Project Thumbnail" width="850"/>
 </p>
 
 ## System Architecture & Data Flow
