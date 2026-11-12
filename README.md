@@ -2,13 +2,11 @@
 
 Therapy Connect is an AI-powered interactive therapeutic assistant designed to provide an empathetic and understanding space for users to explore their thoughts. It's a full-stack web application featuring a multi-stage AI pipeline that listens, understands, and interacts in a deeply personalized and conversational manner.
 
-# Drive Link
-Visit Files: [https://drive.google.com/drive/folders/1S8QnxsFunuPhtRWAwy4UvDOt4jbhUc15?usp=sharing]
 
 
 # 🎨 Frontend Design
 
-![Therapy Connect UI](./Application_Pictures/Thumbnail.png)
+![Therapy Connect UI](./Application_Pictures/Therapy Connect Wellness Dashboard.png)
 
 For more project images, please open the [**Application_Pictures**](./Application_Pictures) folder.
 
